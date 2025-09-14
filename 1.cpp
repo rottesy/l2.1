@@ -102,8 +102,8 @@ int getNumber(const char *msg)
         if (std::cin.peek() == '\n' || std::cin.peek() == ' ' || std::cin.fail())
         {
             std::cin.clear();
-            while (std::cin.get() != '\n' && !std::cin.eof()) {
-                }
+            while (std::cin.get() != '\n' && !std::cin.eof())
+                ;
             std::cout << "\nError, invalid input. Please try again: ";
             continue;
         }
@@ -195,7 +195,7 @@ void handleArrayOperations(Array &arr1, Array &arr2)
                         show(arr1, "Array 1: ");
                         break;
                     case 3:
-                        arr1 = Array(); 
+                        arr1 = Array();
                         cout << "Array 1 cleared" << "\n";
                         break;
                     case 0:
@@ -216,7 +216,7 @@ void handleArrayOperations(Array &arr1, Array &arr2)
                         show(arr2, "Array 2: ");
                         break;
                     case 3:
-                        arr2 = Array(); 
+                        arr2 = Array();
                         cout << "Array 2 cleared" << "\n";
                         break;
                     case 0:
