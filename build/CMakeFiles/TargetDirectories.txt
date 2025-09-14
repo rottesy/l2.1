@@ -1,0 +1,3 @@
+D:/TESTINGGG/build/CMakeFiles/lab2.dir
+D:/TESTINGGG/build/CMakeFiles/edit_cache.dir
+D:/TESTINGGG/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/TESTINGGG/build",
+  "command": "D:\\msy2\\ucrt64\\bin\\c++.exe   -g -o CMakeFiles\\lab2.dir\\1.cpp.obj -c D:\\TESTINGGG\\1.cpp",
+  "file": "D:/TESTINGGG/1.cpp",
+  "output": "CMakeFiles/lab2.dir/1.cpp.obj"
+}
+]
