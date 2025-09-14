@@ -102,8 +102,8 @@ int getNumber(const char *msg)
         if (std::cin.peek() == '\n' || std::cin.peek() == ' ' || std::cin.fail())
         {
             std::cin.clear();
-            while (std::cin.get() != '\n' && !std::cin.eof())
-                ;
+            while (std::cin.get() != '\n' && !std::cin.eof()) {
+                ;}
             std::cout << "\nError, invalid input. Please try again: ";
             continue;
         }
@@ -154,22 +154,22 @@ void show(const Array &arr, const char *msg)
 
 void showMainMenu()
 {
-    cout << "\n=== ARRAY OPERATIONS MENU ===" << endl;
-    cout << "1. Work with Array 1" << endl;
-    cout << "2. Work with Array 2" << endl;
-    cout << "3. Perform intersection (Array1 & Array2)" << endl;
-    cout << "4. Show both arrays" << endl;
-    cout << "0. Exit" << endl;
+    cout << "\n=== ARRAY OPERATIONS MENU ===" << "\n";
+    cout << "1. Work with Array 1" << "\n";
+    cout << "2. Work with Array 2" << "\n";
+    cout << "3. Perform intersection (Array1 & Array2)" << "\n";
+    cout << "4. Show both arrays" << "\n";
+    cout << "0. Exit" << "\n";
     cout << "Choose option: ";
 }
 
 void showArrayMenu(const char *arrayName)
 {
-    cout << "\n=== " << arrayName << " OPERATIONS ===" << endl;
-    cout << "1. Input " << arrayName << endl;
-    cout << "2. Show " << arrayName << endl;
-    cout << "3. Clear " << arrayName << endl;
-    cout << "0. Back to main menu" << endl;
+    cout << "\n=== " << arrayName << " OPERATIONS ===" << "\n";
+    cout << "1. Input " << arrayName << "\n";
+    cout << "2. Show " << arrayName << "\n";
+    cout << "3. Clear " << arrayName << "\n";
+    cout << "0. Back to main menu" << "\n";
     cout << "Choose option: ";
 }
 
@@ -195,13 +195,13 @@ void handleArrayOperations(Array &arr1, Array &arr2)
                         show(arr1, "Array 1: ");
                         break;
                     case 3:
-                        arr1 = Array(); // Clear array
-                        cout << "Array 1 cleared" << endl;
+                        arr1 = Array(); 
+                        cout << "Array 1 cleared" << "\n";
                         break;
                     case 0:
                         break;
                     default:
-                        cout << "Invalid choice!" << endl;
+                        cout << "Invalid choice!" << "\n";
                 }
                 break;
 
@@ -216,13 +216,13 @@ void handleArrayOperations(Array &arr1, Array &arr2)
                         show(arr2, "Array 2: ");
                         break;
                     case 3:
-                        arr2 = Array(); // Clear array
-                        cout << "Array 2 cleared" << endl;
+                        arr2 = Array(); 
+                        cout << "Array 2 cleared" << "\n";
                         break;
                     case 0:
                         break;
                     default:
-                        cout << "Invalid choice!" << endl;
+                        cout << "Invalid choice!" << "\n";
                 }
                 break;
 
@@ -239,11 +239,11 @@ void handleArrayOperations(Array &arr1, Array &arr2)
                 break;
 
             case 0:
-                cout << "Exiting program..." << endl;
+                cout << "Exiting program..." << "\n";
                 break;
 
             default:
-                cout << "Invalid choice! Please try again." << endl;
+                cout << "Invalid choice! Please try again." << "\n";
         }
     } while (choice != 0);
 }
