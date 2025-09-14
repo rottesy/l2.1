@@ -257,6 +257,7 @@ void handleMainMenu()
 
 int main()
 {
+    cout << "Hello";
     handleMainMenu();
     return 0;
 }
