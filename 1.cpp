@@ -103,7 +103,7 @@ int getNumber(const char *msg)
         {
             std::cin.clear();
             while (std::cin.get() != '\n' && !std::cin.eof()) {
-                ;}
+                }
             std::cout << "\nError, invalid input. Please try again: ";
             continue;
         }
