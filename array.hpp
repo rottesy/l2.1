@@ -5,11 +5,11 @@
 
 class Array
 {
-private:
+  private:
     int *data = nullptr;
     int size = 0;
 
-public:
+  public:
     Array() = default;
     explicit Array(int sizeOfArray);
     Array(const Array &other);
@@ -22,4 +22,3 @@ public:
 };
 
 #endif
-

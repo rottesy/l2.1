@@ -1,7 +1,8 @@
 #include "array.hpp"
 #include "const.hpp"
-#include <iostream>
 #include "utils.hpp"
+#include <iostream>
+
 
 Array::Array(int sizeOfArray) : size(sizeOfArray)
 {
@@ -21,10 +22,7 @@ Array::Array(const Array &other) : size(other.size)
     }
 }
 
-Array::~Array()
-{
-    delete[] data;
-}
+Array::~Array() { delete[] data; }
 
 Array &Array::operator=(const Array &other)
 {
