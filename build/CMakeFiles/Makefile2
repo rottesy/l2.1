@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = D:\TESTINGGG\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/lab2.dir/all
+all: CMakeFiles/array_app.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/lab2.dir/codegen
+codegen: CMakeFiles/array_app.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/lab2.dir/clean
+clean: CMakeFiles/array_app.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lab2.dir
+# Target rules for target CMakeFiles/array_app.dir
 
 # All Build rule for target.
-CMakeFiles/lab2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\TESTINGGG\build\CMakeFiles --progress-num=1,2 "Built target lab2"
-.PHONY : CMakeFiles/lab2.dir/all
+CMakeFiles/array_app.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\TESTINGGG\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target array_app"
+.PHONY : CMakeFiles/array_app.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lab2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\TESTINGGG\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lab2.dir/all
+CMakeFiles/array_app.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\TESTINGGG\build\CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/array_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\TESTINGGG\build\CMakeFiles 0
-.PHONY : CMakeFiles/lab2.dir/rule
+.PHONY : CMakeFiles/array_app.dir/rule
 
 # Convenience name for target.
-lab2: CMakeFiles/lab2.dir/rule
-.PHONY : lab2
+array_app: CMakeFiles/array_app.dir/rule
+.PHONY : array_app
 
 # codegen rule for target.
-CMakeFiles/lab2.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\TESTINGGG\build\CMakeFiles --progress-num=1,2 "Finished codegen for target lab2"
-.PHONY : CMakeFiles/lab2.dir/codegen
+CMakeFiles/array_app.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\TESTINGGG\build\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target array_app"
+.PHONY : CMakeFiles/array_app.dir/codegen
 
 # clean rule for target.
-CMakeFiles/lab2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/clean
-.PHONY : CMakeFiles/lab2.dir/clean
+CMakeFiles/array_app.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/clean
+.PHONY : CMakeFiles/array_app.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

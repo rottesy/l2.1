@@ -1,5 +1,11 @@
-cmake_minimum_required(VERSION 3.10.0)
-project(lab2 VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.10)
+project(ArrayOperations)
 
-add_executable(lab2 1.cpp)
+add_executable(array_app
+    main.cpp
+    array.cpp
+    utils.cpp
+    menu.cpp
+)
 
+target_include_directories(array_app PRIVATE .)

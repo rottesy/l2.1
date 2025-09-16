@@ -116,41 +116,113 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab2
+# Target rules for targets named array_app
 
 # Build rule for target.
-lab2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab2
-.PHONY : lab2
+array_app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array_app
+.PHONY : array_app
 
 # fast build rule for target.
-lab2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/build
-.PHONY : lab2/fast
+array_app/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/build
+.PHONY : array_app/fast
 
-1.obj: 1.cpp.obj
-.PHONY : 1.obj
+array.obj: array.cpp.obj
+.PHONY : array.obj
 
 # target to build an object file
-1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/1.cpp.obj
-.PHONY : 1.cpp.obj
+array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/array.cpp.obj
+.PHONY : array.cpp.obj
 
-1.i: 1.cpp.i
-.PHONY : 1.i
+array.i: array.cpp.i
+.PHONY : array.i
 
 # target to preprocess a source file
-1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/1.cpp.i
-.PHONY : 1.cpp.i
+array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/array.cpp.i
+.PHONY : array.cpp.i
 
-1.s: 1.cpp.s
-.PHONY : 1.s
+array.s: array.cpp.s
+.PHONY : array.s
 
 # target to generate assembly for a file
-1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab2.dir\build.make CMakeFiles/lab2.dir/1.cpp.s
-.PHONY : 1.cpp.s
+array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/array.cpp.s
+.PHONY : array.cpp.s
+
+main.obj: main.cpp.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+menu.obj: menu.cpp.obj
+.PHONY : menu.obj
+
+# target to build an object file
+menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/menu.cpp.obj
+.PHONY : menu.cpp.obj
+
+menu.i: menu.cpp.i
+.PHONY : menu.i
+
+# target to preprocess a source file
+menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/menu.cpp.i
+.PHONY : menu.cpp.i
+
+menu.s: menu.cpp.s
+.PHONY : menu.s
+
+# target to generate assembly for a file
+menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/menu.cpp.s
+.PHONY : menu.cpp.s
+
+utils.obj: utils.cpp.obj
+.PHONY : utils.obj
+
+# target to build an object file
+utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/utils.cpp.obj
+.PHONY : utils.cpp.obj
+
+utils.i: utils.cpp.i
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/utils.cpp.i
+.PHONY : utils.cpp.i
+
+utils.s: utils.cpp.s
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_app.dir\build.make CMakeFiles/array_app.dir/utils.cpp.s
+.PHONY : utils.cpp.s
 
 # Help Target
 help:
@@ -160,10 +232,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lab2
-	@echo ... 1.obj
-	@echo ... 1.i
-	@echo ... 1.s
+	@echo ... array_app
+	@echo ... array.obj
+	@echo ... array.i
+	@echo ... array.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
+	@echo ... menu.obj
+	@echo ... menu.i
+	@echo ... menu.s
+	@echo ... utils.obj
+	@echo ... utils.i
+	@echo ... utils.s
 .PHONY : help
 
 

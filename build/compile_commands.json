@@ -1,8 +1,26 @@
 [
 {
   "directory": "D:/TESTINGGG/build",
-  "command": "D:\\msy2\\ucrt64\\bin\\c++.exe   -g -o CMakeFiles\\lab2.dir\\1.cpp.obj -c D:\\TESTINGGG\\1.cpp",
-  "file": "D:/TESTINGGG/1.cpp",
-  "output": "CMakeFiles/lab2.dir/1.cpp.obj"
+  "command": "D:\\msy2\\ucrt64\\bin\\c++.exe  @CMakeFiles/array_app.dir/includes_CXX.rsp -g -o CMakeFiles\\array_app.dir\\main.cpp.obj -c D:\\TESTINGGG\\main.cpp",
+  "file": "D:/TESTINGGG/main.cpp",
+  "output": "CMakeFiles/array_app.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/TESTINGGG/build",
+  "command": "D:\\msy2\\ucrt64\\bin\\c++.exe  @CMakeFiles/array_app.dir/includes_CXX.rsp -g -o CMakeFiles\\array_app.dir\\array.cpp.obj -c D:\\TESTINGGG\\array.cpp",
+  "file": "D:/TESTINGGG/array.cpp",
+  "output": "CMakeFiles/array_app.dir/array.cpp.obj"
+},
+{
+  "directory": "D:/TESTINGGG/build",
+  "command": "D:\\msy2\\ucrt64\\bin\\c++.exe  @CMakeFiles/array_app.dir/includes_CXX.rsp -g -o CMakeFiles\\array_app.dir\\utils.cpp.obj -c D:\\TESTINGGG\\utils.cpp",
+  "file": "D:/TESTINGGG/utils.cpp",
+  "output": "CMakeFiles/array_app.dir/utils.cpp.obj"
+},
+{
+  "directory": "D:/TESTINGGG/build",
+  "command": "D:\\msy2\\ucrt64\\bin\\c++.exe  @CMakeFiles/array_app.dir/includes_CXX.rsp -g -o CMakeFiles\\array_app.dir\\menu.cpp.obj -c D:\\TESTINGGG\\menu.cpp",
+  "file": "D:/TESTINGGG/menu.cpp",
+  "output": "CMakeFiles/array_app.dir/menu.cpp.obj"
 }
 ]
